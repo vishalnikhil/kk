@@ -172,7 +172,7 @@
       {S.N.N.R college,chamtha}{Percentage:86.1 }
       {class 12,Bihar}{2021}
   \resumeSubheading
- {st joseph public school}{Percentage:95}
+ {st joseph public school}{Percentage:94}
       {class 10, Bihar}{2019}
   \resumeSubHeadingListEnd
 \vspace{-5.5mm}
@@ -215,7 +215,7 @@
            \resumeProject
       { CHAT APPLICATION} %Project Name
       { A web application where users can chat with their friends} %Project Name, Location Name
-      {2023} %Event Dates
+      {march 2024} %Event Dates
 
       \resumeItemListStart
         \  %item {Tools \& technologies used: xxx,xxx}
@@ -303,7 +303,7 @@
 \resumeSubHeadingListStart
 \resumePOR{  CODOTRON } % Award
     {top 10 (coding event under avishkar 2023)} % Event
-    {march 2023} %Event Year
+    {march 2024} %Event Year
     
 \resumePOR{ JEE MAINS-2022   } % Award
     {  among top 1.2percent students} % Event
@@ -319,3 +319,4 @@
 
 %-------------------------------------------
 \end{document}
+
