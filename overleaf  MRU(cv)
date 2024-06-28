@@ -126,35 +126,35 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%
 %%%%%% DEFINE ELEMENTS HERE %%%%%%%
-\newcommand{\name}{NIKHIL VISHAL} % Your Name
-\newcommand{\course}{Btech} % Your Program
+\newcommand{\name}{Nikhil Vishal} % Your Name
+\newcommand{\course}{Bachelor Of Technology, 2026} % Your Course
 \newcommand{\roll}{20224103} % Your Roll No.
 \newcommand{\phone}{9264179115} % Your Phone Number
-\newcommand{\emaila}{vishalnikhil2004@gmail.com} %Email 1
-\newcommand{\emailb}{nikhil.20224103@mnnit.ac.in} %Email 2
+\newcommand{\emaila}{vishalnikhil2004@gmail.com} %Email 2
+\newcommand{\github}{vishalnikhil} %Github
+\newcommand{\website}{https://github.com/vishalnikhil} %Website
+
 
 
 
 
 \begin{document}
 \fontfamily{cmr}\selectfont
+
 %----------HEADING-----------------
-
-
 \parbox{2.35cm}{%
-\includegraphics[width=2cm,clip]{MNNIT logo.jpg}
-}
-\parbox{\dimexpr\linewidth-2.8cm\relax}{
-\begin{tabularx}{\linewidth}{L r} \\
-  \textbf{\Large \name} & {\raisebox{0.0\height}{\footnotesize \faPhone}\ +91-\phone}\\
-  {Roll No.: \roll} & \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}} \\
-  \course &  \href{mailto:\emailb}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emailb}}\\
-  {Electronics and Communication Engineering} &  \href{https://github.com/vishalnikhil}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {vishalnikhil
-}} \\
-  {Motilal Nehru National Institute of Technology Allahabad, Prayagraj} & \href{https://www.linkedin.com/in/nikhil-vishal-a24509259/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {nikhil-vishal
- }}
+\includegraphics[width=2cm,clip]{images.jpeg}
+}\parbox{\dimexpr\linewidth-2.8cm\relax}{
+\begin{tabularx}{\linewidth}{L r}
+  \textbf{\LARGE \name} & +91-\phone\\
+  {Registration No: \roll} & \href{mailto:\emaila}{\emaila}\\
+  \course &\href{https://github.com/\github}{\faGithub\ vishalnikhil}\\
+  {Computer Science and Engineering}& \href{https://www.linkedin.com/in/nikhil-vishal-a24509259/}{\faLinkedin \ nikhil-vishal}\\
+  {Motilal Nehru National Institute of Technology, Prayagraj}  
 \end{tabularx}
 }
+
+
 % \parbox{3.0cm}{%
 % \flushright \includegraphics[width=2cm,clip]{nitp_logo.png}
 % }
@@ -166,17 +166,18 @@
 \section{\textbf{Education}}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Motilal Nehru National institute Of Technology}{7.57(till 4th sem)}
-      {Btech electronics and communication engineering}{2026}
+      {Motilal Nehru National Institute of Technology, Prayagraj}{CPI: 7.57 (till 4th Semester)}
+      {B.Tech. - Electronics and Communication Engineering}{2022 - Present}
+      
     \resumeSubheading
-      {S.N.N.R college,chamtha}{Percentage:86.1 }
-      {class 12,Bihar}{2021}
-  \resumeSubheading
- {st joseph public school}{Percentage:94}
-      {class 10, Bihar}{2019}
+      {S.N.N.R College, Bihar}{Percentage: 86.1}
+      {Bihar School Examination Board}{2021}
+      
+    \resumeSubheading
+      {St Joseph Public School, Bihar}{Percentage: 94.0}
+      {Central Board of Secondary Education}{2019}
   \resumeSubHeadingListEnd
-\vspace{-5.5mm}
-%
+\vspace{-6pt}
 
 
 
@@ -209,76 +210,62 @@
 
 
 %-----------PROJECTS-----------------
-\section{\textbf{Personal Projects}}
+\section{Projects}
 \resumeSubHeadingListStart
 
-           \resumeProject
-      { CHAT APPLICATION} %Project Name
-      { A web application where users can chat with their friends} %Project Name, Location Name
-      {march 2024} %Event Dates
+\resumeProject
+{CHATWAVE} % Project Name
+{Connecting People, Simplifying Communication!} % Project Description
+{March 2024 - June 2024} % Event Dates
+{\faGithub\href{https://github.com/AyushKuGautam/GemstoneGossipChatApp}{\textcolor{blue}{\textit{\textbf{Source Code}}}}}
+\resumeItemListStart
+\item \textbf{Tools and Technologies Used:} HTML, CSS, JavaScript, ReactJs, NodeJs, MongoDB.
+\item Developed a social media platform, \textbf{CHATWAVE}, allowing individuals to \textbf{CONNECT} with others.
+\item Users can create personalized \textbf{Profiles}, implemented a \textbf{Dynamic} feed section.
+\item Integrated \textbf{SocketIo} for real-time\textbf{Follow/Unfollow} requests to users.
+\item Added \textbf{Voice and Video Call} feature for direct communication with other users.
+\item Users can change and toggle the theme of the application i.e. \textbf{Light/Dark} theme.
 
-      \resumeItemListStart
-        \  %item {Tools \& technologies used: xxx,xxx}
-        \item {* tools and technology used: ReactJS,Redux, MUI v5 , NodeJS , ExpressJS , MongoDB Atlas, Socket.io , Github
-      *Authentication/Authorisation Users are able to login and sign up to their account in the chat app .
-      
-             * Users can change and toggle the theme of the application and can use it in both ( light/ dark ) mode
-             
-       * Users can share images/videos and make audio/video calls
- }
-    \resumeItemListEnd
-    \vspace{-2mm}
-    
+\resumeItemListEnd
 
-    \resumeProject
-      {Atlas Codex} %Project Name
-      {a space exploration project under codesangam} %Project Name, Location Name
-      {december 2023} %Event Dates
+\resumeProject
+{ATLAS CODEX} % Project Name
+{Journey to Infinity and Beyond!} % Project Description
+{March 2024 - June 2024} % Event Dates
+{\faGithub\href{https://github.com/ankitgupta789/Exploring_limits}{\textcolor{blue}{\textit{\textbf{Source Code}}}}}
+\resumeItemListStart
+\item \textbf{Tools and Technologies Used:} HTML, CSS, JavaScript, React.js, Node.js, MongoDB.
+\item Developed a secure user login system with \textbf{OTP verification}, facilitating user connection.
+\item Integrated instructor tools for creating \textbf{Documents and Exercise Questions}, enhancing educational content delivery.
+\item Implemented features for creating \textbf{Personalized Notes}, tailoring learning experiences to individual needs.
+\item Designed an interface for managing student queries with real-time \textbf{Chatting} and \textbf{Automated Email} notifications.
 
-      \resumeItemListStart
-        \item {html,css,node.js,parallax effect}
-        \item {added quizes and progress tracking to make the page more interactive}
-    \resumeItemListEnd
-    \vspace{-2mm}
-    
- %           \resumeProject
- %      { CHAT APPLICATION} %Project Name
- %      { A web application where users can chat with their friends} %Project Name, Location Name
- %      {2023} %Event Dates
+\resumeItemListEnd
 
- %      \resumeItemListStart
- %        \  %item {Tools \& technologies used: xxx,xxx}
- %        \item {* tools and technology used: ReactJS,Redux, MUI v5 , NodeJS , ExpressJS , MongoDB Atlas, Socket.io , Github
- %      *Authentication/Authorisation Users are able to login and sign up to their account in the chat app .
-      
- %             * Users can change and toggle the theme of the application and can use it in both ( light/ dark ) mode
-             
- %       * Users can share images/videos and make audio/video calls
- % }
- %    \resumeItemListEnd
- %    \vspace{-2mm}
-    
-      
-  \resumeSubHeadingListEnd
-\vspace{-5.5mm}
+\resumeSubHeadingListEnd
+
+\vspace{-1mm}
 
 
 
-%-----------Technical skills-----------------
-\section{\textbf{Technical Skills}}
- \begin{itemize}[leftmargin=0.05in, label={}]
-    \small{\item{
-     \textbf{languages: C++ ,  C   ,Javascript}{: } \\
-     % \textbf  {languages: C++, c , javascript}{: } \\
-     % \textbf{Frameworks}{: } \\
-     % \textbf{Cloud/Databases}{: } \\
-     \textbf{Data structures and algorithms}{: } \\
-    \textbf{Object Oriented Programming}{ } \\
-     \textbf{Mathematics}{: } \\
-    }}
- \end{itemize}
- \vspace{-16pt}
 
+\section{Technical Skills}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming}
+{ C, C++, Java, HTML5, CSS, JavaScript, Tailwind, NodeJs, ReactJs}
+\resumeSubItem{Web Development Tools and Libraries:}
+{ Express, Postman, Bootstrap, }
+\resumeSubItem{Cloud/DataBases}
+{ MongoDB Atlas Cloud} 
+\resumeSubItem{Version Control:}
+{Git, GitHub}
+\resumeHeadingSkillEnd
+
+\section{Areas of Interest}
+\resumeHeadingSkillStart
+\resumeSubItem{Areas of Interests:}
+{Data Structures and Algorithms, Mathematics, Competitive Programming, Object Oriented Programming} 
+\resumeHeadingSkillEnd
 
 
 %-----------Positions of Responsibility-----------------
@@ -297,26 +284,33 @@
 
 
 
-%-----------Achievements-----------------
-\section{\textbf{Achievements}}
-\vspace{-0.4mm}
+
+\noindent\section{Coding Profiles}
 \resumeSubHeadingListStart
-\resumePOR{  CODOTRON } % Award
-    {top 10 (coding event under avishkar 2023)} % Event
-    {march 2024} %Event Year
-    
-\resumePOR{ JEE MAINS-2022   } % Award
-    {  among top 1.2percent students} % Event
-    {2022} %Event Year
-
-    \resumePOR{  Silver medal} % Award
-    {  Silverzone Mathematics olympiad} % Event
-    {2018} %Event Year
+    \resumeSubItem{LeetCode} % Category
+    {: Solved \textbf{200+} questions \hfill \href{https://leetcode.com/u/nikhilvishal/}{\textcolor{blue}{\textit{\textbf{nikhilvishal}}}}}
+    \resumeSubItem{CodeForces} % Category
+ {: Current Rating \textbf{1115}  \hfill \href{https://codeforces.com/profile/nikhil_vishal2004}{\textcolor{blue}{\textit{\textbf{nikhil-vishal2004}}}}}
 \resumeSubHeadingListEnd
-\vspace{-5mm}
+\vspace{-4mm}
+
+%-----------Achievements-----------------
+
+\section{Achievements}
+\resumeSubHeadingListStart
+    \resumeSubItem{Codotron}
+    {: Were among \textbf{Top 10} teams in College Avishkar event }
+    \resumeSubItem{Codeforces Round 955}
+    {: Secured a Global Rank \textbf{5319} out of 28000+ participants}
+     \resumeSubItem{Jee Mains 2022}
+    {: Was among AIR \textbf{1.2\%} out of 10 lakh+ candidates}
+      \resumeSubItem{Silverzone Mathematics Olympiad}
+    {: Bagged \textbf{Silver Medal} in State level Mathematics event}
 
 
 
-%-------------------------------------------
+
+
+\resumeSubHeadingListEnd
+
 \end{document}
-
